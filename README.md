@@ -30,6 +30,7 @@ An api for basic budget tracking that can be used while connected, or not, to th
 - Added short documentation.
 - Finishe the readme.
 - Attempted to upload application to Heroku.
+- Created Walkthrough video instead.
 # <a name="Preview"> Site/App Preview </a>
 I will add this later
 # <a name="Questions"> Questions </a>

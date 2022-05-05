@@ -32,7 +32,13 @@ An api for basic budget tracking that can be used while connected, or not, to th
 - Attempted to upload application to Heroku.
 - Created Walkthrough video instead.
 # <a name="Preview"> Site/App Preview </a>
-I will add this later
+![Site preview](assets/img/Site_Preview.PNG)
+
+Site Walktrough
+
+https://user-images.githubusercontent.com/55503463/166862217-fdc6eb59-6187-496d-8d78-de535307d07c.mp4
+
+
 # <a name="Questions"> Questions </a>
   If you have any questions, feel free to contact me through GitHub at
   [nicolasrojas-ceng](https://github.com/nicolasrojas-ceng). <br>

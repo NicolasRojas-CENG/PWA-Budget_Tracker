@@ -11,6 +11,7 @@ const FILES_TO_CACHE = [
     './icons/icon-512x512.png'
 ];
 
+//Event listener used to get files from cache or fetch them to cache.
 self.addEventListener('fetch', function (e) {
     console.log('Fetch request : ' + e.request.url)
     e.respondWith(
@@ -26,6 +27,7 @@ self.addEventListener('fetch', function (e) {
     )
 })
 
+//Eventlistener used to install the service-worker version.
 self.addEventListener('install', function (e) {
     e.waitUntil(
         caches.open(CACHE_NAME).then(function (cache) {
@@ -35,6 +37,7 @@ self.addEventListener('install', function (e) {
     )
 })
 
+//Eventlistener to active the service-worker.
 self.addEventListener('activate', function (e) {
     e.waitUntil(
         caches.keys().then(function (keyList) {
